@@ -12,10 +12,10 @@ import dill
 def read_yaml(path_to_yaml: Path)-> ConfigBox: 
     try: 
         with open(path_to_yaml) as yaml_file: 
-            content=yaml.safe_load(path_to_yaml)
+            content=yaml.safe_load(yaml_file)
             logger.info(f"Yaml file read sucessfully: {path_to_yaml}")
             
-            return config_box(content)
+            return ConfigBox(content)
     except Exception as e: 
         raise e
         
