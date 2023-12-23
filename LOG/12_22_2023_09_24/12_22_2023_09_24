@@ -1,0 +1,153 @@
+[2023-12-22 09:16:30,702 : INFO : common : Yaml file read sucessfully: config\config.yaml]
+[2023-12-22 09:16:30,752 : INFO : common : Yaml file read sucessfully: params.yaml]
+[2023-12-22 09:16:30,760 : INFO : common : Yaml file read sucessfully: schema.yaml]
+[2023-12-22 09:16:30,766 : INFO : common :  Directories is created : artifacts]
+[2023-12-22 09:16:30,770 : INFO : common :  Directories is created : artifacts/data_transformation]
+[2023-12-22 09:24:34,275 : INFO : common : Yaml file read sucessfully: config\config.yaml]
+[2023-12-22 09:24:34,281 : INFO : common : Yaml file read sucessfully: params.yaml]
+[2023-12-22 09:24:34,388 : INFO : common : Yaml file read sucessfully: schema.yaml]
+[2023-12-22 09:24:34,400 : INFO : common :  Directories is created : artifacts]
+[2023-12-22 09:24:34,409 : INFO : common :  Directories is created : artifacts/data_transformation]
+[2023-12-22 09:28:13,932 : INFO : common : Yaml file read sucessfully: config\config.yaml]
+[2023-12-22 09:28:13,938 : INFO : common : Yaml file read sucessfully: params.yaml]
+[2023-12-22 09:28:13,943 : INFO : common : Yaml file read sucessfully: schema.yaml]
+[2023-12-22 09:28:13,947 : INFO : common :  Directories is created : artifacts]
+[2023-12-22 09:28:13,952 : INFO : common :  Directories is created : artifacts/data_transformation]
+[2023-12-22 09:32:23,817 : INFO : common : Yaml file read sucessfully: config\config.yaml]
+[2023-12-22 09:32:23,822 : INFO : common : Yaml file read sucessfully: params.yaml]
+[2023-12-22 09:32:23,829 : INFO : common : Yaml file read sucessfully: schema.yaml]
+[2023-12-22 09:32:23,833 : INFO : common :  Directories is created : artifacts]
+[2023-12-22 09:32:23,839 : INFO : common :  Directories is created : artifacts/data_transformation]
+[2023-12-22 09:32:37,041 : INFO : common : Yaml file read sucessfully: config\config.yaml]
+[2023-12-22 09:32:37,047 : INFO : common : Yaml file read sucessfully: params.yaml]
+[2023-12-22 09:32:37,053 : INFO : common : Yaml file read sucessfully: schema.yaml]
+[2023-12-22 09:32:37,058 : INFO : common :  Directories is created : artifacts]
+[2023-12-22 09:32:37,063 : INFO : common :  Directories is created : artifacts/data_transformation]
+[2023-12-22 09:32:37,833 : INFO : 232626481 : Train data from Data Transformation:    Sensor-1  Sensor-2   Sensor-3   Sensor-4  Sensor-5  Sensor-6  Sensor-7  \
+0       NaN   2532.45  2191.1333  2197.6570    1.1569     100.0   89.7222   
+1   3221.21   2391.20  2189.9667  1046.6212    0.8662     100.0  102.3622   
+
+   Sensor-8  Sensor-9  Sensor-10  ...  Sensor-582  Sensor-583  Sensor-584  \
+0    0.1251    1.5762     0.0028  ...         NaN      0.4936      0.0113   
+1    0.1208    1.4756    -0.0025  ...         NaN      0.4940      0.0123   
+
+   Sensor-585  Sensor-586  Sensor-587  Sensor-588  Sensor-589  Sensor-590  \
+0      0.0033      2.2874      0.0133      0.0139      0.0038    104.3034   
+1      0.0033      2.4860      0.0280      0.0078      0.0022     27.7601   
+
+   Good/Bad  
+0        -1  
+1        -1  
+
+[2 rows x 591 columns]]
+[2023-12-22 09:45:00,380 : INFO : common : Yaml file read sucessfully: config\config.yaml]
+[2023-12-22 09:45:00,389 : INFO : common : Yaml file read sucessfully: params.yaml]
+[2023-12-22 09:45:00,440 : INFO : common : Yaml file read sucessfully: schema.yaml]
+[2023-12-22 09:45:00,449 : INFO : common :  Directories is created : artifacts]
+[2023-12-22 09:45:00,453 : INFO : common :  Directories is created : artifacts/data_transformation]
+[2023-12-22 09:45:19,046 : INFO : common : Yaml file read sucessfully: config\config.yaml]
+[2023-12-22 09:45:19,051 : INFO : common : Yaml file read sucessfully: params.yaml]
+[2023-12-22 09:45:19,056 : INFO : common : Yaml file read sucessfully: schema.yaml]
+[2023-12-22 09:45:19,061 : INFO : common :  Directories is created : artifacts]
+[2023-12-22 09:45:19,066 : INFO : common :  Directories is created : artifacts/data_transformation]
+[2023-12-22 09:45:49,388 : INFO : common : Yaml file read sucessfully: config\config.yaml]
+[2023-12-22 09:45:49,393 : INFO : common : Yaml file read sucessfully: params.yaml]
+[2023-12-22 09:45:49,398 : INFO : common : Yaml file read sucessfully: schema.yaml]
+[2023-12-22 09:45:49,401 : INFO : common :  Directories is created : artifacts]
+[2023-12-22 09:45:49,405 : INFO : common :  Directories is created : artifacts/data_transformation]
+[2023-12-22 09:45:50,608 : INFO : 3465105342 : Preprocessor Pipeline is created: Pipeline(steps=[('imputer', SimpleImputer()), ('scaler', StandardScaler())])]
+[2023-12-22 09:50:00,415 : INFO : common : Yaml file read sucessfully: config\config.yaml]
+[2023-12-22 09:50:00,420 : INFO : common : Yaml file read sucessfully: params.yaml]
+[2023-12-22 09:50:00,425 : INFO : common : Yaml file read sucessfully: schema.yaml]
+[2023-12-22 09:50:00,429 : INFO : common :  Directories is created : artifacts]
+[2023-12-22 09:50:00,434 : INFO : common :  Directories is created : artifacts/data_transformation]
+[2023-12-22 09:50:00,591 : INFO : 3993179968 : Train data from Data Transformation:    Sensor-1  Sensor-2   Sensor-3   Sensor-4  Sensor-5  Sensor-6  Sensor-7  \
+0       NaN   2532.45  2191.1333  2197.6570    1.1569     100.0   89.7222   
+1   3221.21   2391.20  2189.9667  1046.6212    0.8662     100.0  102.3622   
+
+   Sensor-8  Sensor-9  Sensor-10  ...  Sensor-582  Sensor-583  Sensor-584  \
+0    0.1251    1.5762     0.0028  ...         NaN      0.4936      0.0113   
+1    0.1208    1.4756    -0.0025  ...         NaN      0.4940      0.0123   
+
+   Sensor-585  Sensor-586  Sensor-587  Sensor-588  Sensor-589  Sensor-590  \
+0      0.0033      2.2874      0.0133      0.0139      0.0038    104.3034   
+1      0.0033      2.4860      0.0280      0.0078      0.0022     27.7601   
+
+   Good/Bad  
+0        -1  
+1        -1  
+
+[2 rows x 591 columns]
+\n
+
+]
+[2023-12-22 09:50:00,722 : INFO : 3993179968 : Test data from Data Transformation:    Sensor-1  Sensor-2   Sensor-3   Sensor-4  Sensor-5  Sensor-6  Sensor-7  \
+0   2980.66   2437.21  2200.9889  1054.5240    1.3830     100.0  100.1800   
+1   3019.98   2515.63  2196.0000  1230.0293    0.7684     100.0   97.5578   
+
+   Sensor-8  Sensor-9  Sensor-10  ...  Sensor-582  Sensor-583  Sensor-584  \
+0    0.1201    1.3713     0.0102  ...         NaN      0.4993      0.0117   
+1    0.1219    1.4919    -0.0001  ...    104.3034      0.4968      0.0217   
+
+   Sensor-585  Sensor-586  Sensor-587  Sensor-588  Sensor-589  Sensor-590  \
+0      0.0032      2.3514      0.0134      0.0121      0.0035     90.4575   
+1      0.0053      4.3587      0.0133      0.0139      0.0038    104.3034   
+
+   Good/Bad  
+0        -1  
+1        -1  
+
+[2 rows x 591 columns]
+
+
+]
+[2023-12-22 09:50:00,727 : INFO : 3993179968 : Preprocessor Pipeline is created: Pipeline(steps=[('imputer', SimpleImputer()), ('scaler', StandardScaler())])]
+[2023-12-22 10:13:40,951 : INFO : common : Yaml file read sucessfully: config\config.yaml]
+[2023-12-22 10:13:40,983 : INFO : common : Yaml file read sucessfully: params.yaml]
+[2023-12-22 10:13:40,997 : INFO : common : Yaml file read sucessfully: schema.yaml]
+[2023-12-22 10:13:41,009 : INFO : common :  Directories is created : artifacts]
+[2023-12-22 10:13:41,026 : INFO : common :  Directories is created : artifacts/data_transformation]
+[2023-12-22 10:13:41,453 : INFO : 2894670497 : Preprocessor Pipeline is created: Pipeline(steps=[('imputer', SimpleImputer()), ('scaler', StandardScaler())])]
+[2023-12-22 10:13:41,574 : INFO : 2894670497 : Input feature train_df :    Sensor-1  Sensor-2   Sensor-3   Sensor-4  Sensor-5  Sensor-6  Sensor-7  \
+0       NaN   2532.45  2191.1333  2197.6570    1.1569     100.0   89.7222   
+1   3221.21   2391.20  2189.9667  1046.6212    0.8662     100.0  102.3622   
+
+   Sensor-8  Sensor-9  Sensor-10  ...  Sensor-581  Sensor-582  Sensor-583  \
+0    0.1251    1.5762     0.0028  ...         NaN         NaN      0.4936   
+1    0.1208    1.4756    -0.0025  ...         NaN         NaN      0.4940   
+
+   Sensor-584  Sensor-585  Sensor-586  Sensor-587  Sensor-588  Sensor-589  \
+0      0.0113      0.0033      2.2874      0.0133      0.0139      0.0038   
+1      0.0123      0.0033      2.4860      0.0280      0.0078      0.0022   
+
+   Sensor-590  
+0    104.3034  
+1     27.7601  
+
+[2 rows x 590 columns]]
+[2023-12-22 10:13:59,475 : INFO : common : Yaml file read sucessfully: config\config.yaml]
+[2023-12-22 10:13:59,481 : INFO : common : Yaml file read sucessfully: params.yaml]
+[2023-12-22 10:13:59,487 : INFO : common : Yaml file read sucessfully: schema.yaml]
+[2023-12-22 10:13:59,491 : INFO : common :  Directories is created : artifacts]
+[2023-12-22 10:13:59,496 : INFO : common :  Directories is created : artifacts/data_transformation]
+[2023-12-22 10:13:59,693 : INFO : 857517900 : Preprocessor Pipeline is created: Pipeline(steps=[('imputer', SimpleImputer()), ('scaler', StandardScaler())])]
+[2023-12-22 10:13:59,723 : INFO : 857517900 : Input feature train_df :    Sensor-1  Sensor-2   Sensor-3   Sensor-4  Sensor-5  Sensor-6  Sensor-7  \
+0       NaN   2532.45  2191.1333  2197.6570    1.1569     100.0   89.7222   
+1   3221.21   2391.20  2189.9667  1046.6212    0.8662     100.0  102.3622   
+
+   Sensor-8  Sensor-9  Sensor-10  ...  Sensor-581  Sensor-582  Sensor-583  \
+0    0.1251    1.5762     0.0028  ...         NaN         NaN      0.4936   
+1    0.1208    1.4756    -0.0025  ...         NaN         NaN      0.4940   
+
+   Sensor-584  Sensor-585  Sensor-586  Sensor-587  Sensor-588  Sensor-589  \
+0      0.0113      0.0033      2.2874      0.0133      0.0139      0.0038   
+1      0.0123      0.0033      2.4860      0.0280      0.0078      0.0022   
+
+   Sensor-590  
+0    104.3034  
+1     27.7601  
+
+[2 rows x 590 columns]]
+[2023-12-22 10:13:59,745 : INFO : 857517900 : targer features train df: [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0]]

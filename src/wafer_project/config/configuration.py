@@ -1,6 +1,6 @@
 from wafer_project.utils.common import read_yaml, create_directories
 from wafer_project.constant import *
-from wafer_project.entity.config_entity import DataIngestionConfig
+from wafer_project.entity.config_entity import (DataIngestionConfig, DataTransformationConfig)
 
 
 
@@ -28,3 +28,19 @@ class ConfigurationManager:
             data_to_store=config.data_to_store)
         
         return data_ingestion_config
+    
+    def get_data_transformation_config(self)-> DataTransformationConfig: 
+        
+        config=self.config.data_transformation
+        create_directories([config.root_dir])
+        
+        data_transformation_config=DataTransformationConfig(
+            root_dir=config.root_dir,
+            preprocessor_obj_file=config.preprocessor_obj_file,
+            train_data_path=config.train_data_path,
+            test_data_path=config.test_data_path,
+            scaled_train_data=config.scaled_train_data,
+            scaled_test_data=config.scaled_test_data
+        )
+        
+        return data_transformation_config  

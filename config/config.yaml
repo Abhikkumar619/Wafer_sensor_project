@@ -8,4 +8,12 @@ data_ingestion:
   data_to_store: artifacts/data_ingestion/raw_data.csv 
 
 
+data_transformation: 
+  root_dir: artifacts/data_transformation
+  preprocessor_obj_file: artifacts/data_transformation/preprocessor.pkl
+  train_data_path: artifacts/data_ingestion/train.csv
+  test_data_path: artifacts/data_ingestion/test.csv
+  scaled_train_data: artifacts/data_transformation/train_scaled.csv
+  scaled_test_data: artifacts/data_transformation/test_scaled.csv
+
 
