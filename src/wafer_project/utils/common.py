@@ -7,6 +7,7 @@ from wafer_project import logger
 import os
 from box import ConfigBox
 import dill
+import pickle
 
 @ensure_annotations
 def read_yaml(path_to_yaml: Path)-> ConfigBox: 
@@ -47,10 +48,10 @@ def load_json(path_loc: Path)-> config_box:
     
 
 @ensure_annotations
-def load_object(file_path: Path, obj):
+def save_object(file_path: Path, obj:object):
     try:  
         with open(file_path, "wb") as file_obj: 
-            dill.dump(obj, file_path)
+            pickle.dump(obj, file_obj)
             
     except Exception as e: 
         raise e
@@ -58,7 +59,7 @@ def load_object(file_path: Path, obj):
 def load_object(file_path: Path): 
     try: 
         with open(file_path,'rb') as file_obj: 
-            return dill.load(file_obj)
+            return pickle.load(file_obj)
     except Exception as e: 
         raise e   
         

@@ -1,0 +1,84 @@
+[2023-12-23 17:07:37,602 : INFO : common : Yaml file read sucessfully: config\config.yaml]
+[2023-12-23 17:07:37,632 : INFO : common : Yaml file read sucessfully: params.yaml]
+[2023-12-23 17:07:37,638 : INFO : common : Yaml file read sucessfully: schema.yaml]
+[2023-12-23 17:07:37,674 : INFO : common :  Directories is created : artifacts]
+[2023-12-23 17:07:37,689 : INFO : common :  Directories is created : artifacts/model_trainer]
+[2023-12-23 17:08:45,263 : INFO : common : Yaml file read sucessfully: config\config.yaml]
+[2023-12-23 17:08:45,269 : INFO : common : Yaml file read sucessfully: params.yaml]
+[2023-12-23 17:08:45,277 : INFO : common : Yaml file read sucessfully: schema.yaml]
+[2023-12-23 17:08:45,281 : INFO : common :  Directories is created : artifacts]
+[2023-12-23 17:08:45,285 : INFO : common :  Directories is created : artifacts/model_trainer]
+[2023-12-23 17:10:49,972 : INFO : common : Yaml file read sucessfully: config\config.yaml]
+[2023-12-23 17:10:49,977 : INFO : common : Yaml file read sucessfully: params.yaml]
+[2023-12-23 17:10:49,982 : INFO : common : Yaml file read sucessfully: schema.yaml]
+[2023-12-23 17:10:49,987 : INFO : common :  Directories is created : artifacts]
+[2023-12-23 17:10:49,991 : INFO : common :  Directories is created : artifacts/model_trainer]
+[2023-12-23 17:10:51,387 : INFO : 1935662037 :    num_pipeline__Sensor-1  ...  Good/Bad
+0                0.000000  ...         0
+1                2.817534  ...         0
+2               -0.936544  ...         0
+3               -0.515367  ...         0
+4                0.543987  ...         0
+
+[5 rows x 591 columns]]
+[2023-12-23 17:20:25,997 : INFO : common : Yaml file read sucessfully: config\config.yaml]
+[2023-12-23 17:20:26,017 : INFO : common : Yaml file read sucessfully: params.yaml]
+[2023-12-23 17:20:26,022 : INFO : common : Yaml file read sucessfully: schema.yaml]
+[2023-12-23 17:20:26,032 : INFO : common :  Directories is created : artifacts]
+[2023-12-23 17:20:26,044 : INFO : common :  Directories is created : artifacts/model_trainer]
+[2023-12-23 17:21:10,353 : INFO : common : Yaml file read sucessfully: config\config.yaml]
+[2023-12-23 17:21:10,359 : INFO : common : Yaml file read sucessfully: params.yaml]
+[2023-12-23 17:21:10,367 : INFO : common : Yaml file read sucessfully: schema.yaml]
+[2023-12-23 17:21:10,372 : INFO : common :  Directories is created : artifacts]
+[2023-12-23 17:21:10,377 : INFO : common :  Directories is created : artifacts/model_trainer]
+[2023-12-23 17:21:46,860 : INFO : common : Yaml file read sucessfully: config\config.yaml]
+[2023-12-23 17:21:46,865 : INFO : common : Yaml file read sucessfully: params.yaml]
+[2023-12-23 17:21:46,871 : INFO : common : Yaml file read sucessfully: schema.yaml]
+[2023-12-23 17:21:46,875 : INFO : common :  Directories is created : artifacts]
+[2023-12-23 17:21:46,882 : INFO : common :  Directories is created : artifacts/model_trainer]
+[2023-12-23 17:23:08,384 : INFO : common : Yaml file read sucessfully: config\config.yaml]
+[2023-12-23 17:23:08,390 : INFO : common : Yaml file read sucessfully: params.yaml]
+[2023-12-23 17:23:08,396 : INFO : common : Yaml file read sucessfully: schema.yaml]
+[2023-12-23 17:23:08,402 : INFO : common :  Directories is created : artifacts]
+[2023-12-23 17:23:08,407 : INFO : common :  Directories is created : artifacts/model_trainer]
+[2023-12-23 17:23:59,402 : INFO : common : Yaml file read sucessfully: config\config.yaml]
+[2023-12-23 17:23:59,409 : INFO : common : Yaml file read sucessfully: params.yaml]
+[2023-12-23 17:23:59,414 : INFO : common : Yaml file read sucessfully: schema.yaml]
+[2023-12-23 17:23:59,417 : INFO : common :  Directories is created : artifacts]
+[2023-12-23 17:23:59,423 : INFO : common :  Directories is created : artifacts/model_trainer]
+[2023-12-23 17:24:00,344 : INFO : 1162303654 : x_train:    num_pipeline__Sensor-1  ...  num_pipeline__Sensor-590
+0                0.000000  ...                  0.637965
+1                2.817534  ...                 -0.879183
+
+[2 rows x 590 columns]
+\n
+]
+[2023-12-23 17:25:36,236 : INFO : common : Yaml file read sucessfully: config\config.yaml]
+[2023-12-23 17:25:36,244 : INFO : common : Yaml file read sucessfully: params.yaml]
+[2023-12-23 17:25:36,250 : INFO : common : Yaml file read sucessfully: schema.yaml]
+[2023-12-23 17:25:36,255 : INFO : common :  Directories is created : artifacts]
+[2023-12-23 17:25:36,259 : INFO : common :  Directories is created : artifacts/model_trainer]
+[2023-12-23 17:25:37,010 : INFO : 2048741883 : x_train:    num_pipeline__Sensor-1  ...  num_pipeline__Sensor-590
+0                0.000000  ...                  0.637965
+1                2.817534  ...                 -0.879183
+
+[2 rows x 590 columns]
+\n
+]
+[2023-12-23 17:25:37,357 : INFO : 2048741883 : y_train:    num_pipeline__Sensor-1  ...  num_pipeline__Sensor-590
+0               -0.437461  ...                 -0.125672
+1                0.140907  ...                  0.085838
+
+[2 rows x 590 columns]
+\n
+]
+[2023-12-23 17:25:37,402 : INFO : 2048741883 : x_test: 0    0
+1    0
+Name: Good/Bad, dtype: int64
+\n
+]
+[2023-12-23 17:25:37,406 : INFO : 2048741883 : y_test: 0    0
+1    0
+Name: Good/Bad, dtype: int64
+\n
+]

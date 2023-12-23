@@ -7,6 +7,8 @@ from imblearn.combine import SMOTETomek # Handling the imbalance dataset
 from sklearn.compose import ColumnTransformer
 from wafer_project.entity.config_entity import DataTransformationConfig
 from wafer_project import logger
+from wafer_project.utils.common import save_object
+from pathlib import Path
 
 
 
@@ -65,10 +67,7 @@ class DataTransformation:
             
             
             preprocessor=self.get_data_transformation_object(num_col)
-            logger.info(f"Preprocessor Pipeline is created: {preprocessor}")
-            
-            
-            
+            # logger.info(f"Preprocessor Pipeline is created: {preprocessor}")
 
             # Scaling the x_train, x_test
             x_train_scaled=preprocessor.fit_transform(input_feature_train_df)
@@ -81,10 +80,6 @@ class DataTransformation:
             x_test_scaled_df=pd.DataFrame(x_test_scaled, columns=preprocessor.get_feature_names_out())
             # logger.info(f"x_test_scaled df: {x_test_scaled_df.head()}")
             
-            
-            
-            
-            
             target_df=pd.DataFrame(np.array(target_feature_train_df), columns=['Good/Bad'])
             target_df2=pd.DataFrame(np.array(target_feature_test_df), columns=['Good/Bad'])
             # logger.info(f"target_dataframe: {target_df}")
@@ -94,9 +89,9 @@ class DataTransformation:
             
             train_arr.to_csv(self.config.scaled_train_data, index=False, header=True)
             test_arr.to_csv(self.config.scaled_test_data, index=False, header=True) 
-            # logger.info("train arr saved")
             
-            # logger.info(f"train arr Datafrae: {train_arr}")
+            save_object(file_path=Path(self.config.preprocessor_obj_file), obj=preprocessor)
+            logger.info(f"Preprocessor object saved at path: {preprocessor}")
             
         except Exception as e: 
             raise e
