@@ -22,3 +22,13 @@ class DataTransformationConfig:
     scaled_train_data: Path
     scaled_test_data: Path
     
+    
+@dataclass(frozen=True)
+class ModelTrainerConfig: 
+    root_dir: Path
+    model_path: Path
+    model_yaml: Path
+    train_arr_path: Path
+    test_arr_path: Path
+
+    
