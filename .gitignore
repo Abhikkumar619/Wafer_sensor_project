@@ -152,7 +152,11 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 wafer_enc/
-LOG/az
+LOG/
+Prediction_artifacts/
+predictions/
+artifacts/
+Data/
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
